@@ -218,7 +218,7 @@
       }
       @media (max-width: 480px) {
       .spantxt {
-        font-size: 1.1rem;
+        font-size: 1rem;
       }
     }
       .secret-revelation.show {
@@ -416,6 +416,7 @@ Ane ghanghor vadli banine varhi jaay evi ichchha he aaje”`;
 
         // first button: reveal secret message (contains the cute button)
         secretBtn.addEventListener("click", () => {
+            audio.play();
           secretDiv.classList.add("show");
         });
 
