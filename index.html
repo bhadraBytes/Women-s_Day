@@ -182,6 +182,25 @@
         background: #9a659a;
       }
 
+            @media (max-width: 480px) {
+      .magic-btn {
+        padding: 1rem 0rem;
+        font-size: 1.1rem;
+        font-weight: bold;
+        border-radius: 60px;
+        color: #fbeafe;
+        cursor: pointer;
+        box-shadow:
+          0 15px 35px #aa5faa,
+          0 0 30px #ffb3ff;
+        transition: all 0.25s;
+        letter-spacing: 1px;
+        border: 2px solid #ffb3ff;
+        flex: 1 1 auto;
+        min-width: 200px;
+      }
+      }
+
       .secret-revelation {
         max-height: 0;
         overflow: hidden;
@@ -197,10 +216,11 @@
         color: #fff3fc;
         text-align: center;
       }
-
+      @media (max-width: 480px) {
       .spantxt {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
       }
+    }
       .secret-revelation.show {
         max-height: fit-content;
         padding: 2rem 2.2rem;
@@ -234,7 +254,7 @@
       @media (max-width: 480px) {
         .cute-btn {
           padding: 0.5rem 1rem;
-          font-size: 1.3rem;
+          font-size: 1.1rem;
           cursor: pointer;
           box-shadow: 0 5px 15px #d580d5;
           transition: 0.2s;
@@ -289,6 +309,26 @@
         padding: 0.5rem 0;
         font-family: "Dancing Script", cursive;
       }
+
+            @media (max-width: 480px) {
+      .polaroid-caption {
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: 900;
+        color: #ffe7ff;
+        text-shadow:
+          0 0 35px #ffb3ec,
+          5px 5px 0 #863886;
+        background: #321a3280;
+        backdrop-filter: blur(6px);
+        margin-top: 1rem;
+        border-radius: 50px;
+        padding: 0.5rem 0;
+        padding-bottom: 10%;
+        font-family: "Dancing Script", cursive;
+        }
+      }
+              
 
       /* hide audio */
       #bgMusic {
